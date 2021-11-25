@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+$fuenteS: 60px;
+main{
+    margin-top: 85px;
+    font-family: 'Righteous', cursive;
+}
+h1{
+    color: rgb(120, 108, 170);
+}
+h2{
+    color:palevioletred;
+}
+.menu{
+    background-color: palegoldenrod;
+        .navbar-toggler-icon {
+        background-image:url(../img/menu.png);
+    }
+    
+}
+.menu__li{
+    font-size: $fuenteS /3;
+    font-weight: bolder;
+    color:#FDAC53;
+}
+.menu__li:hover{
+    color: #D2386C;
+}
+.menu__li--active{
+    color:#D2386C;
+}
+
+.escalaFotos:hover{ //aplico transformaciones---------------------------------------------
+    transform: scale(1.025);
+}
+#resalta{// aplico transiciones------------------------------------------------------------
+    animation-name: text;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+#fondoAnimado{
+    height: 8px;
+    background-image:linear-gradient(90deg, white 90%,goldenrod);
+    animation-name: animaIndex;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+}
+#fondoPrinc{
+    background-image: url("https://images.unsplash.com/photo-1626383446531-a9daa73eec48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+$porc: "%";
+$colores:(  //aplico mapas----------------------------------------------------------------------
+    0%:   yellow,
+    25%:  red,
+    50%:  blue,
+    100%: black,
+);
+@keyframes animaIndex{
+    @for $i from 0 to 101{  //aplico for---------------------------------------------------------
+            #{$i}#{$porc} {
+                @if $i < 90{// aplico if---------------------------------------------------------
+                    background-image:linear-gradient(90deg, white #{$i}#{$porc},goldenrod);
+                    }
+                @else {
+                    background-image:linear-gradient(90deg, white 90%,goldenrod);
+                    }
+                }
+        }
+}
+@keyframes text{ 
+    @each $porcentaje, $color in $colores {  //aplico each-------------------------------------
+        #{$porcentaje} {color: #{$color}
+        }
+    }
+}
