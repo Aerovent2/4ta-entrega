@@ -4,10 +4,13 @@ main {
   font-family: 'Righteous', cursive; }
 
 h1 {
-  color: #786caa; }
+  color: whitesmoke; }
 
 h2 {
-  color: palevioletred; }
+  color: coral; }
+
+footer div div {
+  font-size: 12px; }
 
 .menu {
   background-color: palegoldenrod; }
@@ -44,15 +47,14 @@ h2 {
   background-image: url("https://images.unsplash.com/photo-1626383446531-a9daa73eec48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px; }
+  height: 150px; }
 
 #whatsapp {
   position: absolute;
   top: 110px;
   right: 10px; }
   #whatsapp :hover {
-    transform: scale(1.5);
-    rotate: 2%; }
+    transform: scale(1.5); }
 
 @keyframes animaIndex {
   0% {

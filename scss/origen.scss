@@ -5,10 +5,15 @@ main{
     font-family: 'Righteous', cursive;
 }
 h1{
-    color: rgb(120, 108, 170);
+    color: whitesmoke;
 }
 h2{
-    color:palevioletred;
+    color:coral;
+}
+footer{
+    div{
+        div{font-size: $fuenteS /5;}
+    }
 }
 .menu{
     background-color: palegoldenrod;
@@ -32,7 +37,8 @@ h2{
 .escalaFotos:hover{ //aplico transformaciones---------------------------------------------
     transform: scale(1.025);
 }
-#resalta{// aplico transiciones------------------------------------------------------------
+
+#resalta{// aplico transiciones-----------------------------------------
     animation-name: text;
     animation-iteration-count: infinite;
     animation-duration: 2s;
@@ -48,7 +54,8 @@ h2{
     background-image: url("https://images.unsplash.com/photo-1626383446531-a9daa73eec48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 150px;
+
 }
 #whatsapp{
     position:absolute;
@@ -83,3 +90,4 @@ $colores:(  //aplico mapas------------------------------------------------------
         }
     }
 }
+
