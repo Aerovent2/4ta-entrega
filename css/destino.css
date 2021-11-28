@@ -46,6 +46,14 @@ h2 {
   background-repeat: no-repeat;
   height: 300px; }
 
+#whatsapp {
+  position: absolute;
+  top: 110px;
+  right: 10px; }
+  #whatsapp :hover {
+    transform: scale(1.5);
+    rotate: 2%; }
+
 @keyframes animaIndex {
   0% {
     background-image: linear-gradient(90deg, white 0%, goldenrod); }

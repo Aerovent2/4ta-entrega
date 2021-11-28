@@ -50,6 +50,14 @@ h2{
     background-repeat: no-repeat;
     height: 300px;
 }
+#whatsapp{
+    position:absolute;
+    top: 110px;
+    right: 10px;
+    :hover{
+        transform: scale(1.5);
+    }
+}
 $porc: "%";
 $colores:(  //aplico mapas----------------------------------------------------------------------
     0%:   yellow,
