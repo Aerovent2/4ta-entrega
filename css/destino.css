@@ -32,12 +32,12 @@ footer div div {
   max-width: 200px;
   max-height: 200px; }
 
-.escalaFotos:hover {
-  transform: scale(1.025); }
-
 .imagen {
   width: 150px;
   height: 150px; }
+
+.escalaFotos:hover {
+  transform: scale(1.025); }
 
 #resalta {
   animation-name: text;
@@ -61,7 +61,7 @@ footer div div {
   background-image: url(https://image.freepik.com/vector-gratis/patron-panal-miel_225004-641.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px; }
+  height: 75px; }
 
 #whatsapp {
   position: absolute;
@@ -283,3 +283,13 @@ footer div div {
     color: blue; }
   100% {
     color: black; } }
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+  #fondoSec {
+    height: 145px; } }
+
+/* Desktop */
+@media (min-width: 1025px) {
+  #fondoSec {
+    height: 215px; } }
