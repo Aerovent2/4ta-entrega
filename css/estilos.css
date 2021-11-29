@@ -4,10 +4,13 @@ main {
   font-family: 'Righteous', cursive; }
 
 h1 {
-  color: #786caa; }
+  color: whitesmoke; }
 
 h2 {
-  color: palevioletred; }
+  color: coral; }
+
+footer div div {
+  font-size: 12px; }
 
 .menu {
   background-color: palegoldenrod; }
@@ -24,6 +27,14 @@ h2 {
 
 .menu__li--active {
   color: #D2386C; }
+
+.image {
+  max-width: 200px;
+  max-height: 200px; }
+
+.imagen {
+  width: 150px;
+  height: 150px; }
 
 .escalaFotos:hover {
   transform: scale(1.025); }
@@ -44,7 +55,20 @@ h2 {
   background-image: url("https://images.unsplash.com/photo-1626383446531-a9daa73eec48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 300px; }
+  height: 200px; }
+
+#fondoSec {
+  background-image: url(https://image.freepik.com/vector-gratis/patron-panal-miel_225004-641.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75px; }
+
+#whatsapp {
+  position: absolute;
+  top: 110px;
+  right: 10px; }
+  #whatsapp :hover {
+    transform: scale(1.5); }
 
 @keyframes animaIndex {
   0% {
@@ -259,3 +283,13 @@ h2 {
     color: blue; }
   100% {
     color: black; } }
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+  #fondoSec {
+    height: 145px; } }
+
+/* Desktop */
+@media (min-width: 1025px) {
+  #fondoSec {
+    height: 215px; } }
