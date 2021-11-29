@@ -33,11 +33,17 @@ footer{
 .menu__li--active{
     color:#D2386C;
 }
-
+.image{
+    max-width: 200px;
+    max-height: 200px;
+}
 .escalaFotos:hover{ //aplico transformaciones---------------------------------------------
     transform: scale(1.025);
 }
-
+.imagen{
+    width: 150px;
+    height: 150px;
+}
 #resalta{// aplico transiciones-----------------------------------------
     animation-name: text;
     animation-iteration-count: infinite;
@@ -54,8 +60,13 @@ footer{
     background-image: url("https://images.unsplash.com/photo-1626383446531-a9daa73eec48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150px;
-
+    height:200px;
+}
+#fondoSec{
+    background-image: url(https://image.freepik.com/vector-gratis/patron-panal-miel_225004-641.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
 }
 #whatsapp{
     position:absolute;
