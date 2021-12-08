@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0%;
+  padding: 0%; }
+
 main {
   margin-top: 85px;
   font-family: 'Righteous', cursive; }
 
 h1 {
-  color: whitesmoke; }
+  color: coral; }
 
 h2 {
   color: coral; }
